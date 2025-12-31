@@ -44,7 +44,7 @@ export default function About() {
                 className="rounded-2xl shadow-2xl object-cover"
               />
             </div>
-            <div className="absolute -bottom-8 -right-8 w-48 h-48 md:w-64 md:h-64 z-20">
+            <div className="hidden md:block absolute -bottom-8 -right-8 w-64 h-64 z-20">
               <Image
                 src="/images/food-beef-wrap-rotisserie-01.jpg"
                 alt="Fresh doner being prepared"
