@@ -20,7 +20,7 @@ export default function Menu() {
   const activeMenuCategory = menuData.find((cat) => cat.category === activeCategory);
 
   return (
-    <section id="menu" className="py-24 bg-white">
+    <section id="menu" className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div

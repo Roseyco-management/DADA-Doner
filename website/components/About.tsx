@@ -24,7 +24,7 @@ const features = [
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-cream">
+    <section id="about" className="py-24 bg-cream overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Images */}
@@ -53,7 +53,7 @@ export default function About() {
                 className="rounded-xl shadow-xl object-cover w-full h-full border-4 border-white"
               />
             </div>
-            <div className="absolute -top-4 -left-4 w-24 h-24 bg-accent rounded-full opacity-20" />
+            <div className="hidden md:block absolute -top-4 -left-4 w-24 h-24 bg-accent rounded-full opacity-20" />
           </motion.div>
 
           {/* Content */}
